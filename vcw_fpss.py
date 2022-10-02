@@ -181,7 +181,7 @@ if __name__ =="__main__":
         save_time.append(total_time)
 
         # print (f"\nthe latency is : {latency}\n")
-        print (f"FPS: {int(fps)}")
+        print (display_fps)
         print(display_total_time)
         
         cv.putText(depth_map, display_fps, (7, 30), cv.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2, cv.LINE_8)
